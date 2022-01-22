@@ -21,8 +21,8 @@
     "pnp": false
   },
   "config": {
-    "customUrl": "http://pug-starter.codetap.academy",
-    "githubUrl": "http://github.com/marianzburlea/pug-starter.git",
+    "customUrl": "http://wowdop.com",
+    "githubUrl": "http://github.com/wowdop/practice-web.git",
     "deployToGithubIo": true,
     "directory": {
       "development": "tmp",
