@@ -1,0 +1,21 @@
+// reset CSS
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+// global style
+.content {
+  display: grid;
+
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 60px 1fr;
+}

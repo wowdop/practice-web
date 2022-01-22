@@ -1,0 +1,21 @@
+doctype html 
+html 
+  block config
+  head
+    title= title
+    meta(name="description", content=description)
+    link(rel="stylesheet" href=`${baseUrl}style.css`)
+
+  body
+
+    .content 
+      include ../../_component/top-menu/top-menu
+      include ../../_component/side-menu/side-menu
+      //- include the unique content of every page that makes use of layout
+      .content__wrapper
+        block great-content
+
+      //- iclude a footer
+      foooter
+        div &copy; 2022 WoW DoP
+

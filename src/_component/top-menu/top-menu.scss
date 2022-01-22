@@ -1,0 +1,24 @@
+.top-menu {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-between;
+
+
+  &__link {
+    padding: 1rem;
+    background-color: #036;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    transition: 250ms;
+    
+    &:hover {
+      color: #036;
+      background-color: white;
+    }
+  }
+}

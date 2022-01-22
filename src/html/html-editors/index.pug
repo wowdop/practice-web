@@ -1,0 +1,35 @@
+extends ../../_component/layout/layout
+
+block config
+  -
+    var title = 'Text editors that come to mind'
+    var description  = 'Here is a list of Text editors that come to mind and I have used for the last 3 decades'
+    var testingMenuList = [
+      "word ",
+      "excel ",
+      "notepad ",
+      "dreamweaver ",
+      "notepad++",
+      "editPlus ",
+      "Visual Studio Code ",
+      "atom ",
+      "sublime ",
+      "webstorm ",
+      "front-page ",
+      "gedit ",
+      "vim ",
+      "brackets",
+      "super editor"
+      ]
+
+
+block great-content
+
+  p a few editors that come to minde: 
+  ul 
+    each hmmm in testingMenuList
+      li
+        div
+          div title
+          .body= hmmm
+          footer &copy; I

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "",
+    "label": "Home",
+    "title": "click here to go home"
+  },
+  {
+    "path": "html",
+    "label": "HTML",
+    "title": "click here to go to HTML"
+  },
+  {
+    "path": "css",
+    "label": "CSS",
+    "title": "click here to go to CSS"
+  },
+  {
+    "path": "js",
+    "label": "JavaScript",
+    "title": "click here to go to JavaScript"
+  }
+]
